@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+
+}
+
+.content .logo {
+    width: 180px;
+    margin-top: 50px;
+}
+
+.content hr {
+    border: none;
+    height: 3px;
+    background: #cd7771;
+    max-width: 150px;
+}
+
+.content h1 {
+    font-size: 100px;
+    font-weight: 150;
+    color: #cfcfcfcf;
+    letter-spacing: 4px;
+    line-height: 80px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.content p {
+    max-width: 400px;
+    color: #cfcfcfcf;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.content .btn {
+
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 30px;
+    margin-top: 50px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 30px;
+
+
+}
+
+.content .btn:hover {
+
+    border-color: #cd7771;
+    background: #cd7771;
+    color: black;
+    font-weight: 2;
+
+
+}
+
+.menu {
+    width: 40px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    cursor: pointer;
+
+}
+
+.sidebar {
+    width: 50%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.8);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0px;
+    max-width: 500px;
+    backdrop-filter: blur(8px);
+}
