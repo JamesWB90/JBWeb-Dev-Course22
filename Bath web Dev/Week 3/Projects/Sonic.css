@@ -1,0 +1,29 @@
+body{
+
+    background-image: url(images/background2.jpeg);
+background-size: cover;
+overflow: hidden;
+}
+
+#sonic{
+        position: absolute;
+        bottom: 50px;
+        background: url('images/sonic5-spritesheet.png') no-repeat 0 -2px;
+        width: 66px;
+        height: 81px;
+        animation: run-sonic 1s steps(21) infinite;
+    }
+
+
+    @keyframes run-sonic {
+        0% {
+            background-position: 0px
+        }
+        to {
+            background-position: -462px -11px;
+        }
+    }
+       
+
+
+    
