@@ -1,29 +1,55 @@
-body{
+body {
 
     background-image: url(images/background2.jpeg);
-background-size: cover;
-overflow: hidden;
+    background-size: cover;
+
 }
 
-#sonic{
-        position: absolute;
-        bottom: 50px;
-        background: url('images/sonic5-spritesheet.png') no-repeat 0 -2px;
-        width: 66px;
-        height: 81px;
-        animation: run-sonic 1s steps(21) infinite;
-    }
+.sonic {
+
+    width: 66px;
+    height: 76px;
+    bottom: 250px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.sonic {
+
+    animation: run-sonic 3s steps(8) infinite,walk_forward 25s linear infinite;
+}
 
 
-    @keyframes run-sonic {
-        0% {
-            background-position: 0px
+/* @keyframes run-sonic {
+        from {
+            background-position: -900px
         }
         to {
-            background-position: -462px -11px;
+            background-position: 100px 
         }
+    } */
+
+@keyframes run-sonic {
+    0% {
+        background-position: 0px;
     }
-       
+
+    100% {
+        background-position: -700px;
+    }
+}
+
+@keyframes walk_forward {
+    0% {
+        transform: translateX(-100px);
+    }
+
+    100% {
+
+        transform: translateX(100vw);
+
+    }
 
 
-    
+
+}
