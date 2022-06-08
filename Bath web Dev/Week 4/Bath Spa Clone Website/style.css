@@ -1,37 +1,131 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-}
-
-
-/*----about----*/
-
-
-
-/
-
-/*---courses---*/
-
-
-
-/*---contact---*/
-
-
-
-
-/*----footer----*/
-
-
-
-
-/*---social-icons---*/
-
-
-
-@media only screen and (max-width: 770px){
+  }
+  body {
+    background: white;
+    color: black;
+    height: 100vh;
+  }
+  .logo {
+    position: absolute;
+    max-width: 100px;
+    height:    30px;
+    margin-left: 60px;
+  }
+  .main {
+    background-image: url("img/background.png");
+    background-position: center;
+    background-size: contain;
+    height: 130vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin: 25px;
+    
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin-left: 200px;
+    box-sizing: border-box;
+    margin-left: 60px;
     }
+  .square {
+    display: flex;
+    height: 10px;
+    width: 10px;
+    background-color: #F67C92;
+  }
+  .paragragh {
+    width: 50px;
+    justify-content: left;
+    font-size: 10px;
+    margin-top: 100px;
+    padding-top: 100px;
+  }
+  .foot {
+    display: flex;
+    flex-direction: column;
+  }
+  .button-container {
+    display: flex;
+    margin-left: 40px;
+    bottom: 600px;
+    padding: 20px;
+    width: 150px;
 
+  }
+  button {
+    border: 2px solid #F67C92;
+    padding: 10px 20px;
+    background-color: white;
+    font-size: 15px;
+  }
+  .square2 {
+    height: 10px;
+    width: 10px;
+    background-color: #F67C92;
+    margin-left: 60px;
+    bottom: 500px;
+  }
+  .line {
+    margin-left: 60px;
+    border: none;
+    height: 2px;
+    background: #F67C92;
+    max-width: 120px;
+    margin-top: 20px;
+  }
+  .line2 {
+    margin-left: 60px;
+    border: none;
+    height: 2px;
+    background: #F67C92;
+    max-width: 100px;
+    margin-top: 10px;
+  }
+  nav {
+    display: flex;
+    position: absolute; 
+    
+    max-width: 20px;
+    height: auto;
+    margin-top: 20%;
+    margin-left: -10px;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+  }
+  nav li {
+    padding: 0.5vw 0;
+  }
+  nav li img{
+    width: 15px;
+  }
+  .menu {
+    width: 50px;
+    top: 90px;
+    right: 50px;
+    position: absolute;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #F67C92;
+  }
+  #anchor-button {
+    text-decoration: none;
+  }
+  @media screen and (min-width:400px) and (max-width:1000px) {
+    .main {
+     background-image:url(/img/background.png);
+    }
+  }
+
+  
 
 
 

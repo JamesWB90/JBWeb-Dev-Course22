@@ -1,0 +1,59 @@
+
+:root {
+    --pixel-size: 6;
+}
+* {
+
+    margin: 0;
+    padding: 0%;
+
+
+
+}
+
+body {
+
+    background-image: url(img/mario\ background.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 600px;
+    width: 100%;
+    height: auto;
+}
+
+.mario {
+
+    width: 89px;
+    height: 175px;
+    bottom: 60px;
+    position: relative;
+    background-image: url(/img/mario-jump.png);
+    ;
+    animation: walk-cycle 1s steps(5) infinite,
+    
+        walk_forward 4s linear infinite;
+
+
+}
+
+@keyframes walk-cycle {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -1000px;
+    }
+}
+
+@keyframes walk_forward {
+    0% {
+        transform: translateX(-0px);
+    
+    }
+
+    100% {
+        transform: translateX(1400px);
+        
+    }
+}
