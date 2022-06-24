@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lightbulb</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
 
-
-<h1> Click to turn on the light </h1>
-
-<img src="/Challenges/lightbilb.jpeg" alt="" srcset="">
+    <h2>Use the buttons to turn on and off.</h3>
 
 
-<button id="btn1">Turn On</button>
+<div class="img">
+        <img id="bulb" src="off.png">
 
-<button id="btn2">Turn Off</button>
-    
+</div>
+
+
+        <br>
+
+        <div class="buttons">
+            <button id="On" onclick="light(1)"> Turn On </button>
+            <button id="Off" onclick="light(0)">Turn Off</button>
+
+        </div>
+
+
+
+
+        <script src="lightbulb.js">
+
+        </script>
 </body>
+
 </html>

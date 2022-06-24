@@ -1,5 +1,29 @@
-*{
+ body{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    margin: 60px;
+    background-color: lightskyblue;
+    text-align: center;
+    
+   
+} 
 
-    margin: 0;
-    padding: 20;
+#bulb > img{
+
+    height: 50%;
 }
+
+button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+
+
+
+
+
