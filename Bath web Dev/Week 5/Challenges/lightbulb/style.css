@@ -5,18 +5,23 @@
     margin: 60px;
     background-color: lightskyblue;
     text-align: center;
+    font-family: sans-serif;
+   
     
    
 } 
 
-#bulb > img{
+img{
 
-    height: 50%;
+    height: 300px;
 }
 
 button{
-    padding: 10px;
+   padding: 20px;
     margin: 10px;
+    width: 150px;
+    font-family: sans-serif;
+    border-style: dashed;
     border-radius: 20px;
     background-color: lightgreen;
     cursor: pointer;

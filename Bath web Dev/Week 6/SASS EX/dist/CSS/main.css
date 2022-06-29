@@ -12,12 +12,6 @@ body #bg {
   position: absolute;
   z-index: -1;
 }
-@media (min-width: 840px) {
-  body #bg {
-    -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-            clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-  }
-}
 body header a {
   color: #fff;
   text-decoration: none;
@@ -72,12 +66,12 @@ section#primary p {
   font-size: 1.4em;
 }
 section#primary a {
-  color: #fcafba;
+  color: color(primary-dark);
   border-radius: 15px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-  background-color: #53BF9D;
+  background-color: color(accent);
   display: block;
   text-align: center;
   margin: 50px auto 0 auto;
