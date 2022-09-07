@@ -102,11 +102,15 @@ section {
 .home {
     height: 100vh;
     width: 100%;
-    position: relative;
+    /* position: relative;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-left: 100px;
+    margin-left: 100px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
 }
 
 .home-text h1 {
@@ -215,7 +219,7 @@ margin-left: 300px;
 /* ---------------------About--------------------------- */
 .about {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2rem;
 }
@@ -531,7 +535,7 @@ form textarea {
 
 /* ---------------------------Media Qs------------------------------ */
 
-@media (max-width: 1325px){
+@media (max-width: 1625px){
     header {
         padding: 16px 3%;
     }
@@ -546,13 +550,12 @@ form textarea {
         padding: 130px 3% 60px;
     }
 
-    .profile-image img {
-        padding: 10px 5%;
-        
-
-
-    }
+   
 }
+
+
+   
+
 
 /* @media (max-width: 1288px) {
 
@@ -587,7 +590,7 @@ form textarea {
     
 } */
 
-@media (max-width: 970px) {
+@media (max-width: 1250px) {
 
     :root {
         --h1-font: 4.2rem;
@@ -604,7 +607,12 @@ form textarea {
         height: 85vh;
     }
 
-    
+    .profile-image img{
+        margin-right: 50px;
+        padding: 50px;
+        border-radius: 10px;
+        
+    }
 
     .about {
         grid-template-columns: repeat(2, 1fr);
@@ -658,6 +666,11 @@ form textarea {
 
     }
 
+    .profile-image img{
+        margin-right: 50px;
+        padding: 50px;
+        border-radius: 10px;
+        
     }
 
     .about {
@@ -675,3 +688,5 @@ form textarea {
 
 
     }
+
+}
