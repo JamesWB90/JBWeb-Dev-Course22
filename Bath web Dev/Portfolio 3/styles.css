@@ -192,7 +192,8 @@ span {
 .side-socials img{
     display: block;
     width: 20px;
-    margin: 0 auto 40px;
+    margin: 0 auto 50px;
+    margin-left: 5px;
     cursor: pointer;
 }
 
@@ -308,7 +309,7 @@ span {
     justify-content: center;
     align-items:center;
     text-align: center;
-    grid-gap: 1rem;
+    grid-gap: 0.5rem;
     padding: 1rem 80px;
     font-size: var(--p-font);
   }
@@ -317,6 +318,8 @@ span {
    padding: 1rem;
    color: #ddd;
    cursor: pointer;
+   
+   
   }
 .skill-box p{
     color: var(--text2-color);
@@ -331,6 +334,12 @@ span {
     transform: scale(1.20) translateY(-5px);
 }
 
+/* .skill-img .bar{
+    background: var(--text2-color);
+    display: block;
+    height: 2px;
+    border: #7f5af0;
+} */
 
 
   .skill-title{
@@ -406,6 +415,8 @@ margin-top: 0.5rem;
     z-index: 2;
     
  }
+
+ 
 
 /* ------------------------Skills End-------------------------- */
 
@@ -729,6 +740,7 @@ form textarea {
     width: 100%;
     height: 100%;
     border-radius: 10px;
+    margin-bottom: 30rem;
 }
 
 /* ------------------------ About Page 2 end ---------------------- */
@@ -869,7 +881,7 @@ form textarea {
     }
 
     .about-img :hover {
-        transform: scale(1.40) translateY(-5px);
+        transform: scale(1.02) translateY(-5px);
     }
 
     #contact {
@@ -984,7 +996,7 @@ form textarea {
     }
 
     .about-img :hover {
-        transform: scale(1.10) translateY(-5px);
+        transform: scale(1.02) translateY(-5px);
     }
 
     
