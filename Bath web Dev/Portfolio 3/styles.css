@@ -709,7 +709,7 @@ form textarea {
 
 .about-more-text h2 {
     font-size: var(--h2-font);
-    margin-top: -2rem;
+    margin-top: 2rem;
 
 }
 
